@@ -1,0 +1,93 @@
+body {
+    background-color:rgb(180, 214, 214);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: rgb(65, 156, 156);
+    border-radius: 10px;
+    
+}
+
+#paragrafo{
+    font-size: x-large;
+    text-align: justify;
+    background-color: rgb(65, 156, 156);
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.lista{
+    font-weight: bold;
+}
+
+.lista li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+.lista img{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.tabela table{
+    border-collapse: collapse;
+}
+
+.tabela table ,th{
+    padding: 10px;
+    border: 2px solid black;
+}
+.tabela td{
+    padding: 4px;
+    border: 2px solid black;
+}
+
+.tabela th{
+    color:  rgb(29, 89, 179);
+}
+
+.tabela img {
+    width: 200px;
+}
+
+
+#link{
+    font-weight: bold;
+    font-size: large;
+}
+
+a{
+    color: rgb(29, 89, 179);
+}
+
+a:hover{
+    color: black;
+}
+
+
+#botao{
+    background-color: rgb(65, 156, 156);
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mensagem{
+    margin-top: 5px;
+    width: 400px;
+    font-size: large;
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+#mensagem.ativo{
+    opacity: 1;
+}
